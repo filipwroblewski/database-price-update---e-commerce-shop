@@ -1,5 +1,9 @@
 # Database price update - e-commerce shop
 
+### Project video presentation
+
+[![YouTube video](http://img.youtube.com/vi/u_b8ghru2xA/0.jpg)](http://www.youtube.com/watch?feature=player_embedded&v=u_b8ghru2xA)
+
 ## The description of end-user’s requirement
 
 The seller has an e-commerce store with various products. Until now, the trade was carried out only in Poland. The seller wanted to distribute the products to European Union countries and the United States. Therefore, they needed to accept payments in American dollars (USD) and in Euro. The buyer needs to know how much the goods cost in a given currency.
