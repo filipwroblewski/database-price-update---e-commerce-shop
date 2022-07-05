@@ -72,6 +72,8 @@ pip install mysql-connector-python
 
 4. Then the script should have a separate mode of operation, which it will generate on request an [Excel spreadsheet](https://github.com/filipwroblewski/database-price-update---e-commerce-shop/blob/main/products.xlsx) with a list of all the products in the database in the columns: **ProductID, DepartmentID, Category, IDSKU, ProductName, Quantity, UnitPrice, UnitPriceUSD, UnitPriceEuro, Ranking**
 
+![Excel img](https://img.youtube.com/vi/u_b8ghru2xA/3.jpg)
+
    _cmd_
 
    ```cmd
