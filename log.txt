@@ -1,0 +1,6 @@
+2022-07-05 19:51:06,931 Starting new HTTPS connection (1): api.nbp.pl:443
+2022-07-05 19:51:07,008 https://api.nbp.pl:443 "GET /api/exchangerates/rates/a/eur?format=json HTTP/1.1" 200 None
+2022-07-05 19:51:07,012 Starting new HTTPS connection (1): api.nbp.pl:443
+2022-07-05 19:51:07,082 https://api.nbp.pl:443 "GET /api/exchangerates/rates/a/usd?format=json HTTP/1.1" 200 None
+2022-07-05 19:51:07,092 Updated 7 record(s), in UnitPriceUSD column
+2022-07-05 19:51:07,098 Updated 7 record(s), in UnitPriceEuro column
