@@ -15,8 +15,8 @@ pip install mysql-connector-python
 ```
 
 1. Install MySQL database and create database with name **mydb**.
-2. Import [schema]() of e-commerce shop to mydb.
-3. Import [test data]() to mydb
+2. Import [schema](https://github.com/filipwroblewski/database-price-update---e-commerce-shop/blob/main/resources/schema.sql) of e-commerce shop to mydb.
+3. Import [test data](https://github.com/filipwroblewski/database-price-update---e-commerce-shop/blob/main/resources/data.sql) to mydb
    _Comment: data have to be loaded from top to bottom, transaction after transaction, to avoid import error._
 
 ## Functional requirements
@@ -66,7 +66,7 @@ pip install mysql-connector-python
    mydb = mysql.connector.connect(host=host, user=user, password=password, database=database)
    ```
 
-4. Then the script should have a separate mode of operation, which it will generate on request an [Excel spreadsheet]() with a list of all the products in the database in the columns: **ProductID, DepartmentID, Category, IDSKU, ProductName, Quantity, UnitPrice, UnitPriceUSD, UnitPriceEuro, Ranking**
+4. Then the script should have a separate mode of operation, which it will generate on request an [Excel spreadsheet](https://github.com/filipwroblewski/database-price-update---e-commerce-shop/blob/main/products.xlsx) with a list of all the products in the database in the columns: **ProductID, DepartmentID, Category, IDSKU, ProductName, Quantity, UnitPrice, UnitPriceUSD, UnitPriceEuro, Ranking**
 
    _cmd_
 
@@ -90,6 +90,6 @@ pip install mysql-connector-python
 1. The script should be object-oriented.
 2. The script’s code should be documented.
 3. The solution should be uploaded to a GitHub account.
-4. Changed [database schema]() should be exported as sql and also uploaded to GitHub.
-5. The script should use the logging module to log the operation from activity to [log file]().
+4. Changed [database schema](https://github.com/filipwroblewski/database-price-update---e-commerce-shop/blob/main/resources/database%20schema.sql) should be exported as sql and also uploaded to GitHub.
+5. The script should use the logging module to log the operation from activity to [log file](https://github.com/filipwroblewski/database-price-update---e-commerce-shop/blob/main/log.txt).
 6. The script should also handle exceptions, eg when the NBP API is not available or as a base the data will not be available or as another errors occur. All errors should be logged to the log file.
