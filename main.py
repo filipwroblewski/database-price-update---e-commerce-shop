@@ -1,4 +1,3 @@
-from unicodedata import name
 from app.database_operations import Database_operations as db
 from app.api_operations import Api_operations as api
 
